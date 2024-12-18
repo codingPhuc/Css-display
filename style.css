@@ -1,8 +1,4 @@
-/* p {
-  color: #000 !important  ;
-  font-family: Verdana, sans-serif;
-  line-height: 1.5;
-} */
+
 a {
   text-decoration: none;
 }
@@ -74,7 +70,7 @@ body {
 }
 
 .header__dropdown {
-  /* align-items: center; */
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -101,10 +97,9 @@ body {
   justify-content: space-between;
   align-items: center;
   border-radius: 25px;
-  border: 1px solid black; /* added in the solid line color  */
+  border: 1px solid black; 
   background-color: transparent;
-  /* padding-right: 5px;
-    padding-left: 5px; */
+
   padding: 5px 10px;
 }
 
@@ -137,21 +132,16 @@ body {
 }
 .icon__button:hover {
   background-color: #ddd;
-  /* border: none;  // reduntant */
   border-radius: 25px;
-  /* height: 25px; */
 }
 
 .header__register {
-  display: flex; /* forgot the display flex */
+  display: flex; 
   justify-content: center;
 }
 
-.register__button--highlight {
-}
-
 .login__button {
-  background-color: green; /*suggested dark green color */
+  background-color: green; 
   border: none;
   border-radius: 25px;
   padding: 10px 20px;
@@ -182,8 +172,7 @@ body {
   flex-direction: row;
 }
 
-.option-bar__link--highlight {
-}
+
 
 .sidebar {
   height: 100%;
@@ -213,7 +202,7 @@ body {
 .link-section__learning {
   position: relative;
   padding: 2px 15px 1px 40px;
-  /* width: 100%; */
+
   font-family: "Segoe UI", Arial, sans-serif;
   text-decoration: none;
   display: block;
@@ -223,8 +212,6 @@ body {
   background-color: green;
 }
 
-.link-section__learning--highlight {
-}
 
 .body {
   padding: 16px 32px 32px 32px;
@@ -237,8 +224,7 @@ body {
   flex-direction: column;
 }
 
-.tutorial__text {
-}
+
 
 .tutorial__section {
   display: flex;
@@ -277,11 +263,6 @@ body {
   margin-bottom: 20px;
 }
 
-.body__example {
-}
-
-.example__text-section {
-}
 
 .example__text h2 {
   font-size: 25px;
@@ -331,11 +312,7 @@ body {
   box-sizing: inherit;
 }
 
-.body__exercise {
-}
 
-.exercise__text-section {
-}
 
 .exercise__text h2 {
   font-size: 24px;
@@ -392,8 +369,7 @@ body {
   border-radius: 5px;
 }
 
-.quiz__text {
-}
+
 .quiz__text h2 {
   font-size: 25px;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -401,8 +377,6 @@ body {
   margin: 10px 0;
 }
 
-.body__box-link {
-}
 
 .box-link__text h2 {
   font-size: 25px;
@@ -420,8 +394,8 @@ body {
   flex: 1 1 250px;
   margin-left: 20px;
   margin-right: 20px;
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
-  margin-bottom: 10px; /* Optional: Add space between rows */
+  box-sizing: border-box; 
+  margin-bottom: 10px;
 }
 .box-link__link :hover {
   box-sizing: inherit;
@@ -440,18 +414,17 @@ body {
   border-radius: 5px;
 }
 
-.body__final {
-}
+
 
 .footer {
   padding: 40px 80px 300px 80px;
   padding-bottom: 400px;
   flex-direction: column;
   display: flex;
-  background-color: #0b0d17; /* Dark blue-black */
+  background-color: #0b0d17; 
   background-image: radial-gradient(white 1px, transparent 1px),
     radial-gradient(white 1px, transparent 1px);
-  background-size: 100px 100px; /* Adjust star spacing */
+  background-size: 100px 100px; 
   background-position: 0 0, 50px 50px;
   margin-right: 0;
   margin-left: 0;
@@ -467,9 +440,9 @@ body {
 }
 
 .footer__icon {
-  height: 50px; /* Set a specific height for the icon */
-  width: auto; /* Maintain aspect ratio */
-  margin-right: 20px; /* Add some space to the right of the icon */
+  height: 50px; 
+  width: auto; 
+  margin-right: 20px;
 }
 
 .icon__logo {
@@ -516,7 +489,6 @@ body {
 
 .footer-links__learning {
 
-  /* color: #fff4a3; */
   color: #ddd;
   outline-width: 0;
   font-size: 16px;
@@ -528,14 +500,3 @@ body {
   width: 400px;
 }
 
-.right-sidebar__image {
-}
-
-.right-sidebar__ads-link {
-}
-
-.right-sidebar__icon-button {
-}
-
-.icon-button {
-}
